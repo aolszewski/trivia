@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav{ 
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li:hover { 
+  background-color: #ffccbc; 
+  color: white; 
+}
+
+.main-container{ 
+  background: url(https://images.unsplash.com/photo-1584098113770-a5922198255a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80); 
+  background-size: cover; 
+  background-position: center; 
+  min-height: 1000px; 
+}
+
+.start{ 
+  background-color: white; 
+  padding: 10px; 
+  margin: 10px; 
+  border-radius: 30px; 
+  position: relative; 
+  right: 0; 
+  bottom: -310px; 
+}
+
+.highscore, .quiz-title{ 
+  margin: 0 auto; 
+  background-color: white; 
+  width: 500px; 
+  padding: 10 px; 
+  margin: 10px; 
+  border-radius: 30px;
+  text-align: center; 
+}
+
+.card{ 
+  width: 500px; 
+  background-color: #e3f2fd;
+}
+
+.card:hover{ 
+  background-color: #fbe9e7;
+}
+
+btn{ 
+  background-color: #1a237e; 
+}
+
+
+@media screen and (max-width: 670px){
+  .main-container { 
+    min-height: 500px; 
+  }
+}
